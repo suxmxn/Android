@@ -7,6 +7,18 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        // 바인딩 객체 획득
+        //val binding = ActivityMainBinding.inflate(layoutInflater)
+        // 액티비티 화면 출력
+        //setContentView(binding.root)
+
+        // 뷰 객체 이용
+        //binding.visibleBtn.setOnClickListener {
+        //    binding.targetView.visibility = View.VISIBLE
+        //}
+        //binding.invisibleBtn.setOnClickListener {
+        //    binding.targetView.visibility = View.INVISIBLE
+        //}
         /*//이름 문자열 출력 TextView 생성
        val name = TextView(this).apply {
            typeface = Typeface.DEFAULT_BOLD
